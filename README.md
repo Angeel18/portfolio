@@ -15,6 +15,8 @@ Styling: Tailwind CSS
 
 “About Me” section introducing my background and goals
 
+“Knowledge” section introducing my skills in different languages
+
 “Projects” section to show my recent web apps and experiments
 
 “Contact” section for anyone interested in reaching out
