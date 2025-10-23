@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Codema",
+    "description": "Programming learning platform made by me and a colleague in PHP and JavaScript.",
+    "url": "https://github.com/Angeel18/Codema"
+  },
+  {
+    "title": "Portfolio",
+    "description": "My personal portfolio website made with React and TailwindCSS.",
+    "url": "https://github.com/Angeel18/Portfolio"
+  },
+  {
+    "title": "Old Portfolio",
+    "description": "My old personal portfolio website made with HTML, CSS and JavaScript.",
+    "url": "https://github.com/Angeel18/PorfolioOld"
+  },
+  {
+    "title": "RevBall",
+    "description": "Website to upload videos of sport matches and add highlights for coaches and players to review later made with PHP and JavaScript.",
+    "url": "https://github.com/Angeel18/RevBall"
+  }
+]

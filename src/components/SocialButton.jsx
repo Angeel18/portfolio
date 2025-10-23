@@ -1,6 +1,6 @@
 function SocialButton(props) {
     const URL = props.url;
-    const icon = "src/assets/icons/"+props.icon+".png";
+    const icon = "/media/icons/"+props.icon+".png";
     return (
         <div className="flex items-center justify-center bg-white/5 p-1 rounded-xl">
             <a href={URL} target="_blank">

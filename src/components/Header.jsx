@@ -3,6 +3,9 @@ function Header(){
         console.log("Change language" );
     }
 
+    const enIcon = new URL("/media/icons/EngIcon.png", import.meta.url).href;
+    const esIcon = new URL("/media/icons/EspIcon.png", import.meta.url).href;
+
 
     return (
         <header className="fixed top-0 left-0 z-50 w-full">
@@ -15,8 +18,9 @@ function Header(){
                         <a href="#contact"><li className="text-center text">Contact</li></a>
                     </ul>
                     <div className="flex">
-                        <button className="cursor-pointer" onClick={changeLanguage}>{/* Icons of language eng and esp */ }
-                            <img src="src\assets\icons\EngIcon.png" alt="En" className="w-5"/>
+                        <button className="cursor-pointer" onClick={changeLanguage}>
+                            {/* Icons of language eng and esp */ }
+                            <img src={enIcon} alt="En" className="w-5"/>
 
                         </button>
                     </div>

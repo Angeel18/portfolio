@@ -1,8 +1,10 @@
 function About(){
+    const profileUrl = new URL("/media/Profile.png", import.meta.url).href;
+
     return (
         <section id="about" className="flex flex-col md:flex-row justify-center items-center gap-5 md:gap-20 min-h-screen">
             <div className="flex w-full md:w-5/12 xl:w-3/12 max-w-60 md:max-w-none justify-center items-center">
-                <img src="src/assets/Profile.png" className="rounded-full" alt="Picture of me" />
+                <img src={profileUrl} className="rounded-full" alt="Picture of me" />
             </div>
             <div className="flex flex-col md:w-5/12 xl:w-3/12 px-4 justify-center items-center text-center">
 
