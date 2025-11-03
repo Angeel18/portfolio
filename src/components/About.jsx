@@ -8,8 +8,8 @@ function About(){
             </div>
             <div className="flex flex-col md:w-5/12 xl:w-3/12 px-4 justify-center items-center text-center">
 
-                <h3 className="text-3xl lg:text-4xl" id="header-1-about-me">Hello, I'm Angel. </h3>
-                <h3 className="text-xl lg:text-2xl mb-4 mt-2" id="header-2-about-me">I'm a Full Stack Web Developer.</h3>
+                <h1 className="text-3xl lg:text-4xl" id="header-1-about-me">Hello, I'm Angel. </h1>
+                <h2 className="text-xl lg:text-2xl mb-4 text-amber-200" id="header-2-about-me">Full Stack Web Developer.</h2>
                 <p id="text-about-me" className="text-sm lg:text-base">
                     I recently graduated in Web Application Development, 
                     and I'm currently expanding my knowledge and refining my skills through personal projects and continuous learning.
