@@ -1,5 +1,5 @@
 function KnowledgeCard(props){
-    const imageUrl = new URL("/media/logos/"+ props.logo +".png", import.meta.url).href;
+    const imageUrl = new URL("/media/logos/"+ props.logo +".webp", import.meta.url).href;
     const wipUrl = new URL("/media/icons/WIP.png",import.meta.url).href;
     const title = props.title
 

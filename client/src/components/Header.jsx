@@ -3,8 +3,8 @@ function Header(){
         console.log("Change language" );
     }
 
-    const enIcon = new URL("/media/icons/EngIcon.png", import.meta.url).href;
-    const esIcon = new URL("/media/icons/EspIcon.png", import.meta.url).href;
+    const enIcon = new URL("/media/icons/EngIcon.webp", import.meta.url).href;
+    const esIcon = new URL("/media/icons/EspIcon.webp", import.meta.url).href;
 
 
     return (

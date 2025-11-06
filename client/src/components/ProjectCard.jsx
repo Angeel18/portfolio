@@ -11,7 +11,7 @@ function ProjectCard(props) {
             NamePreview = NamePreview.replace(" ", "_");
         }
     }
-    const preview = new URL("/media/previews/"+NamePreview+".png",import.meta.url).href;
+    const preview = new URL("/media/previews/"+NamePreview+".webp",import.meta.url).href;
     function openRepository() {
         window.open(githubUrl, "_blank");
     }
