@@ -61,6 +61,6 @@ app.post("/api/contact", async (req, res) => {
 });
 
 // Start
-app.use(cors({ origin: "https://angeel.dev" })); // or remove if same-origin via proxy
+app.use(cors({ origin: ["https://angeel.dev", "https://www.angeel.dev"] }));
 app.listen(process.env.PORT || 4000, "0.0.0.0", () => console.log("API up"));
 
