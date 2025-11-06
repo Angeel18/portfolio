@@ -12,11 +12,6 @@ async function SendForm(formData) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-
-      if (res.ok) {
-        e.target.reset();
-      } else {
-      }
     } catch (error) {
       console.error(error);
 

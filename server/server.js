@@ -22,7 +22,7 @@ const pool = mysql.createPool({
 });
 
 // Health check
-app.get("/api/health", async (_req, res) => {
+app.get("/health", async (_req, res) => {
   try {
     const [rows] = await pool.query("SELECT 1 AS ok");
     res.json({ ok: rows[0].ok === 1 });
@@ -32,7 +32,7 @@ app.get("/api/health", async (_req, res) => {
 });
 
 // Contact endpoint
-app.post("/api/contact", async (req, res) => {
+app.post("/contact", async (req, res) => {
   try {
     const { name, email, message } = req.body;
 
