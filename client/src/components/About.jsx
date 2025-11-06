@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 function About(){
+    const { t } = useTranslation();
     const profileUrl = new URL("/media/Profile.png", import.meta.url).href;
 
     return (
@@ -8,18 +11,14 @@ function About(){
             </div>
             <div className="flex flex-col md:w-5/12 xl:w-3/12 px-4 justify-center items-center text-center">
 
-                <h1 className="text-3xl lg:text-4xl" id="header-1-about-me">Hello, I'm Angel. </h1>
-                <h2 className="text-xl lg:text-2xl mb-4 text-amber-200" id="header-2-about-me">Full Stack Web Developer.</h2>
+                <h1 className="text-3xl lg:text-4xl" id="header-1-about-me">{t("about-h1")}</h1>
+                <h2 className="text-xl lg:text-2xl mb-4 text-amber-200" id="header-2-about-me">{t("about-h2")}</h2>
                 <p id="text-about-me" className="text-sm lg:text-base">
-                    I recently graduated in Web Application Development, 
-                    and I'm currently expanding my knowledge and refining my skills through personal projects and continuous learning.
+                    {t("about-p1")}
                     <br />
-                    I'm working in improving to build modern, and user-friendly web applications, 
-                    and I enjoy exploring new technologies.
+                    {t("about-p2")}
                     <br />
-                    My next goal is to join a team as a Junior Web Developer, 
-                    where I can contribute to real-world projects, learn from experienced professionals, 
-                    and continue growing as a developer.   
+                    {t("about-p3")}
                 </p>
             </div>
         </section>

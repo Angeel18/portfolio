@@ -1,0 +1,22 @@
+{
+    "about": "About me",
+    "knowledge": "Knowledge",
+    "projects": "Projects",
+    "contact": "Contact",
+    "rights": "All rights reserved",
+    "about-h1": "Hello! I'm Ángel Rodríguez",
+    "about-h2": "Full Stack Web Developer.",
+    "about-p1": "I recently graduated in Web Application Development, and I'm currently expanding my knowledge and refining my skills through personal projects and continuous learning.",
+    "about-p2": "I'm working in improving to build modern, and user-friendly web applications, and I enjoy exploring new technologies.",
+    "about-p3": "My next goal is to join a team as a Junior Web Developer, where I can contribute to real-world projects, learn from experienced professionals, and continue growing as a developer.",
+    "knowledge-h2": "Knowledge",
+    "knowledge-h3": "Languages or frameworks I've learnt",
+    "projects-h2": "Projects",
+    "projects-h3": "Click on them to see their respective repository",
+    "contact-h2": "Want to work together?",
+    "contact-h3": "Leave your details and I'll get back to you as soon as possible.",
+    "contact-form-name-label": "Name and Surname:",
+    "contact-form-email-label": "Email:",
+    "contact-form-message-label": "Message:",
+    "contact-form-submit-button": "Send"
+}
