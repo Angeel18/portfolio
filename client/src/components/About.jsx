@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-
+import DownloadCV from "./DownloadCV";
 function About(){
     const { t } = useTranslation();
     const profileUrl = new URL("/media/Profile.webp", import.meta.url).href;
@@ -20,6 +20,9 @@ function About(){
                     <br />
                     {t("about-p3")}
                 </p>
+                <div className="mt-6">
+            <DownloadCV></DownloadCV>
+                </div>
             </div>
         </section>
 

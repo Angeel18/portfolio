@@ -3,6 +3,7 @@ function ProjectCard(props) {
     const project = projects.find(p => p.title === props.title);
     const title = project.title;
     const githubUrl = project.url;
+    const wipUrl = new URL("/media/icons/WIP.png", import.meta.url).href;
 
     // Get current language saved by i18next in localStorage (e.g. "en" or "es").
     // If it's not found, default to "en".
@@ -38,6 +39,8 @@ function ProjectCard(props) {
             style={{ backgroundImage: `url(${preview})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
             <div className="flex flex-col p-4 justify-between items-center h-full w-full bg-black/70 hover:bg-black/40 transition-all duration-400 rounded-2xl">
+                {props.wip ? <div className="absolute top-2 right-2 bg-amber-300/60 text-black p-2 rounded-full"><img src={wipUrl} alt="" /></div> : null}
+
                 <h2 className="text-xl md:text-3xl">{title}</h2>
                 <p className="text-sm md:text-xl text-center">{description}</p>
             </div>

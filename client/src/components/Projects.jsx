@@ -11,10 +11,9 @@ function Projects() {
                     <h3 className="text-xl md:text-2xl">{t("projects-h3")}</h3>
                 </div>
                 <div className="flex flex-wrap gap-4 justify-around p-4">
-                    <ProjectCard title="Portfolio"/>
-                    <ProjectCard title="Old Portfolio"/>
                     <ProjectCard title="Codema"/>
                     <ProjectCard title="RevBall"/>
+                    <ProjectCard title="Portfolio Kaiyno" wip={true}/>
                 </div>
             </div>
         </section>

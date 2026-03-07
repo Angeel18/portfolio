@@ -10,5 +10,11 @@
     "description-en": "Website to upload videos of sport matches and add highlights for coaches and players to review later made with PHP and JavaScript.",
     "description-es": "Sitio web para subir videos de partidos deportivos y agregar momentos destacados para que los entrenadores y jugadores los revisen más tarde, hecho con PHP y JavaScript.",
     "url": "https://github.com/Angeel18/RevBall"
+  },
+  {
+    "title": "Portfolio Kaiyno",
+    "description-en": "Artist Portfolio built with Astro, React, Node.js and MySQL to show their artworks.",
+    "description-es": "Portfolio de Artista construido con Astro, React, Node.js y MySQL para mostrar su arte.",
+    "url": "https://github.com/Angeel18/PortfolioKaiyno"
   }
 ]
