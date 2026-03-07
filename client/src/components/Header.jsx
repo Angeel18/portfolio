@@ -15,13 +15,13 @@ function Header() {
             <div className="flex justify-center items-center h-15 text-xs sm:text-sm md:text-base">
                 <nav className="flex gap-4 bg-white/15 backdrop-blur-sm border border-neutral-600 px-4 py-2 rounded-full items-center">
                     <ul className="flex gap-4">
-                        <a href="#about"><li>{t("about")}</li></a>
-                        <a href="#knowledge"><li>{t("knowledge")}</li></a>
-                        <a href="#projects"><li>{t("projects")}</li></a>
-                        <a href="#contact"><li>{t("contact")}</li></a>
+                        <a href="#about"><li className="hover:underline">{t("about")}</li></a>
+                        <a href="#knowledge"><li className="hover:underline">{t("knowledge")}</li></a>
+                        <a href="#projects"><li className="hover:underline">{t("projects")}</li></a>
+                        <a href="#contact"><li className="hover:underline">{t("contact")}</li></a>
                     </ul>
                     <div className="flex">
-                        <button className="cursor-pointer" onClick={changeLanguage}>
+                        <button className="cursor-pointer hover:scale-110 transition-all duration-200" onClick={changeLanguage}>
                             <img
                                 src={i18n.language.startsWith("es") ? esIcon : enIcon}
                                 alt={i18n.language.startsWith("es") ? "ES" : "EN"}

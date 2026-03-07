@@ -6,18 +6,6 @@
     "url": "https://github.com/Angeel18/Codema"
   },
   {
-    "title": "Portfolio",
-    "description-en": "My personal updated portfolio website made with React and TailwindCSS.",
-    "description-es": "Mi sitio web de portafolio personal actualizado hecho con React y TailwindCSS.",
-    "url": "https://github.com/Angeel18/Portfolio"
-  },
-  {
-    "title": "Old Portfolio",
-    "description-en": "My old personal portfolio website made with HTML, CSS and JavaScript.",
-    "description-es": "Mi antiguo sitio web de portafolio personal hecho con HTML, CSS y JavaScript.",
-    "url": "https://github.com/Angeel18/PorfolioOld"
-  },
-  {
     "title": "RevBall",
     "description-en": "Website to upload videos of sport matches and add highlights for coaches and players to review later made with PHP and JavaScript.",
     "description-es": "Sitio web para subir videos de partidos deportivos y agregar momentos destacados para que los entrenadores y jugadores los revisen más tarde, hecho con PHP y JavaScript.",

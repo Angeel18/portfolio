@@ -15,6 +15,7 @@ function Knowledge() {
                     <KnowledgeCard logo="JavaLogo" title="Java" />
                     <KnowledgeCard logo="JavascriptLogo" title="JavaScript" />
                     <KnowledgeCard logo="ReactLogo" title="React" />
+                    <KnowledgeCard logo="TailwindLogo" title="Tailwind CSS" />
                     <KnowledgeCard logo="NextjsLogo" title="Next.js" wip={true} />
                 </div>
             </div>
