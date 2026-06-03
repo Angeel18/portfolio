@@ -7,7 +7,9 @@ import nodemailer from "nodemailer";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: ["https://angeel.dev", "https://www.angeel.dev", "http://localhost:5173"],
+}));
 app.use(express.json());
 
 const transporter = nodemailer.createTransport({
@@ -111,6 +113,5 @@ app.post("/contact", async (req, res) => {
 });
 
 // Start
-app.use(cors({ origin: ["https://angeel.dev", "https://www.angeel.dev"] }));
 app.listen(process.env.PORT || 4000, "0.0.0.0", () => console.log("API up"));
 
