@@ -1,8 +1,14 @@
 [
   {
+    "title": "Got2Love",
+    "description-en": "Brand clothing Ecommerce built with Astro, React, Node.js and MySQL. ",
+    "description-es": "Ecommerce de tienda de ropa hecha en Astro con React, Node.js y MySQL.",
+    "url": "https://got2love.es"
+  },
+  {
     "title": "Codema",
     "description-en": "Programming learning platform made by me and a colleague in PHP and JavaScript.",
-    "description-es": "Plataforma de aprendizaje de programación hecha por mí y un colega en PHP y JavaScript.",
+    "description-es": "Plataforma de aprendizaje de programación hecha por mí y mi compañero en PHP y JavaScript.",
     "url": "https://github.com/Angeel18/Codema"
   },
   {
@@ -15,6 +21,7 @@
     "title": "Portfolio Kaiyno",
     "description-en": "Artist Portfolio built with Astro, React, Node.js and MySQL to show their artworks.",
     "description-es": "Portfolio de Artista construido con Astro, React, Node.js y MySQL para mostrar su arte.",
-    "url": "https://github.com/Angeel18/PortfolioKaiyno"
+    "url": "https://github.com/Angeel18/PortfolioKaiyno",
+    "wip": true
   }
 ]
