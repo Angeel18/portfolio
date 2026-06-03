@@ -19,5 +19,8 @@
     "contact-form-name-label": "Name and Surname:",
     "contact-form-email-label": "Email:",
     "contact-form-message-label": "Message:",
-    "contact-form-submit-button": "Send"
+    "contact-form-submit-button": "Send",
+    "contact-form-sending": "Sending...",
+    "contact-form-success": "Message sent! I'll get back to you soon.",
+    "contact-form-error": "Something went wrong. Please try again."
 }

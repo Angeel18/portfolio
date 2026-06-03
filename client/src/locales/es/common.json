@@ -19,5 +19,8 @@
     "contact-form-name-label": "Nombre y Apellidos:",
     "contact-form-email-label": "Correo electrónico:",
     "contact-form-message-label": "Mensaje:",
-    "contact-form-submit-button": "Enviar"
+    "contact-form-submit-button": "Enviar",
+    "contact-form-sending": "Enviando...",
+    "contact-form-success": "¡Mensaje enviado! Me pondré en contacto contigo pronto.",
+    "contact-form-error": "Algo salió mal. Por favor, inténtalo de nuevo."
 }
