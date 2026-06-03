@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "rm -rf ../deployed && vite build && chmod -R 755 ../deployed",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -13,7 +13,6 @@
     "@tailwindcss/vite": "^4.1.14",
     "i18next": "^25.6.0",
     "i18next-browser-languagedetector": "^8.2.0",
-    "node": "^25.1.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-i18next": "^16.2.4",

@@ -9,7 +9,7 @@ function Footer () {
             <div className="flex flex-col justify-center items-center p-4 text-sm gap-3">
                 <SocialButton url="https://github.com/Angeel18" icon="Github"/>
                 <div className="text-center">
-                <p>© 2025 Ángel Rodríguez</p>
+                <p>© {new Date().getFullYear()} Ángel Rodríguez</p>
                 <p>{t("rights")}</p>
                 </div>
             </div>
